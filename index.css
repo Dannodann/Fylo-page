@@ -1,5 +1,5 @@
 body{
-    width: 1640px;
+    width: 1670px;
 }
 
 header {
@@ -35,10 +35,9 @@ nav a {
 
 main {
     display: flex;
-    padding: 50px;
+    padding: 70px;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 
 main .content{
@@ -99,3 +98,40 @@ form {
   button[type="submit"]:hover {
     background-color: #0056b3;
   }
+
+  .wallpaper {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+   .divition {
+    display: flex;
+    padding: 78px;
+    justify-content: center;
+}
+
+  section {
+    display: flex;
+    background-color: hsl(240, 75%, 98%);
+    margin: 0px;
+  }
+
+section h2{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 47px;
+    line-height: 1.5
+}
+
+section .content{
+    padding-right: 19%;
+}
+
+div .content .pa {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
