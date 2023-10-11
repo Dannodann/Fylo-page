@@ -1,5 +1,5 @@
 body {
-  width: 1670px;
+  width: 1676px;
 }
 
 header {
@@ -32,13 +32,6 @@ nav a {
   font-family: "Raleway", sans-serif;
 }
 
-main {
-  display: flex;
-  padding: 70px;
-  justify-content: center;
-  align-items: center;
-}
-
 main .content {
   max-width: 740px;
   margin: 10px;
@@ -69,7 +62,7 @@ form {
   display: flex;
 }
 
-input[type="email"] {
+.form1 input[type="email"] {
   width: 49%;
   font-size: 16px;
   border: 1.5px solid #4f4f4f;
@@ -80,7 +73,7 @@ input[type="email"] {
   color: Gray hsl(0, 0%, 75%);
 }
 
-button[type="submit"] {
+.form1 button[type="submit"] {
   height: 50px;
   background-color: #007bff;
   color: #ffffff;
@@ -107,9 +100,10 @@ button[type="submit"]:hover {
 }
 
 .divition {
-  display: flex;
-  padding: 78px;
-  justify-content: center;
+    display: flex;
+    padding: 78px;
+    justify-content: center;
+    align-items: center;
 }
 
 #one {
@@ -121,7 +115,7 @@ button[type="submit"]:hover {
 #one h2 {
   display: inline;
   font-family: "Raleway", sans-serif;
-  font-size: 47px;
+  font-size: 46px;
   line-height: 1.5;
 }
 
@@ -189,3 +183,56 @@ article p {
   font-size: 10px;
   margin: 0%;
 }
+
+#two{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+}
+
+#two .content{
+    margin-right: 260px;
+}
+
+#two h3{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+#two p{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.form2{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+}
+
+.form2 input[type="email"] {
+    font-size: 16px;
+    border: 1.5px solid #4f4f4f;
+    border-radius: 5px;
+    height: 50px;
+    color: Gray hsl(0, 0%, 75%);
+    padding-left: 10px;
+  }
+  
+  .forfree {
+    margin-top: 20px;
+    height: 50px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 2px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 110%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-family: "Open Sans", sans-serif;
+  }
