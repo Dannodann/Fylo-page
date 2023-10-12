@@ -236,3 +236,59 @@ article p {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     font-family: "Open Sans", sans-serif;
   }
+
+  footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+  }
+
+  .section-4columns{
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .column-contact {
+    flex: 1;
+  }
+
+  .contact img{
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  .column-link {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    flex-direction: column;
+  }
+
+  .column-link li{
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .column-link a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+  .favicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .favicon li{
+    display: flex;
+    margin: 5px;
+  }
